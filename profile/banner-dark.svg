@@ -7,30 +7,10 @@
   </defs>
   <rect width="1280" height="400" fill="#09090B"/>
   <rect width="1280" height="400" fill="url(#a1)"/><rect width="1280" height="400" fill="url(#a2)"/><rect width="1280" height="400" fill="url(#a3)"/>
-  <g transform="translate(120 120) scale(1.333)">
-  <defs>
-    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#C42236"/><stop offset="0.5" stop-color="#8B0012"/><stop offset="1" stop-color="#52000A"/>
-    </linearGradient>
-    <radialGradient id="hl" cx="26" cy="14" r="78" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff" stop-opacity="0.24"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FFE1E4"/></linearGradient>
-    <mask id="gap" maskUnits="userSpaceOnUse" x="0" y="0" width="120" height="120">
-      <rect width="120" height="120" fill="#fff"/><circle cx="80.12" cy="38.84" r="10.7" fill="#000"/>
-    </mask>
-    <radialGradient id="spark"><stop offset="0" stop-color="#fff" stop-opacity="0.9"/><stop offset="1" stop-color="#FFD8DC" stop-opacity="0"/></radialGradient>
-  </defs>
-  <rect width="120" height="120" rx="28" fill="url(#tile)"/><rect width="120" height="120" rx="28" fill="url(#hl)"/>
-  <g transform="translate(0 0) scale(1)">
-    <g mask="url(#gap)">
-      <rect x="33" y="23.5" width="15" height="72" rx="4.5" fill="url(#ink)"/>
-      <path d="M 40.99 43.65 A 23 23 0 1 1 40.99 62.35" fill="none" stroke="url(#ink)" stroke-width="13" stroke-linecap="butt"/>
-    </g>
-    <circle cx="80.12" cy="38.84" r="22.1" fill="url(#spark)"/>
-    <circle cx="80.12" cy="38.84" r="8.5" fill="#FFFFFF"/>
-  </g>
-</g>
+  <svg x="120" y="120" xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 120 120"><title>PKU harness</title>
+  <rect width="120" height="120" rx="28" fill="#8B0012"/>
+  <g transform="translate(0 0) scale(1)"><path d="M 47.40 39.60 C 44.80 33.40 41.80 26.00 43.80 23.80 C 46.40 20.60 54.20 26.20 58.40 30.40 C 62.40 34.20 65.00 37.20 67.00 38.60 L 63.00 44.60 C 64.80 39.80 70.40 36.00 76.20 35.80 C 84.60 35.80 90.40 39.80 94.00 45.60 L 99.20 46.40 Q 102.20 47.00 99.80 49.00 L 95.00 52.20 C 94.80 66.20 87.40 77.40 76.60 84.20 C 66.00 90.80 55.40 91.80 45.00 88.20 L 24.60 97.00 Q 21.80 98.20 23.80 95.00 L 31.80 85.00 C 26.00 83.40 20.80 81.20 18.40 79.20 Q 17.00 77.40 20.40 77.40 C 32.60 77.60 41.40 75.20 47.60 70.80 C 34.80 68.00 24.40 58.20 21.60 43.20 C 20.20 37.80 21.80 35.40 26.00 37.00 C 34.40 39.40 42.80 41.20 51.00 45.00 C 58.60 48.40 66.20 53.60 67.80 60.20 C 68.60 65.80 66.20 70.80 62.60 75.00 C 68.80 71.20 72.60 65.60 72.40 60.40 C 71.80 51.00 60.00 44.00 47.40 39.60 Z M 81.4 48.6 A 3.0 3.0 0 1 0 87.4 48.6 A 3.0 3.0 0 1 0 81.4 48.6 Z" fill="#FFFFFF" fill-rule="evenodd"/></g>
+</svg>
   <text x="330" y="190" font-family="Inter, Noto Sans CJK SC, sans-serif" font-size="64" font-weight="700" fill="#F5F6F8" letter-spacing="-1">pkuinfo</text>
   <text x="332" y="240" font-family="Noto Sans CJK SC, sans-serif" font-size="28" font-weight="500" fill="#F5F6F8">让燕园的数字生活更简单</text>
   <text x="332" y="282" font-family="Inter, Noto Sans CJK SC, sans-serif" font-size="20" fill="#8D95A1">Open-source tools for campus life at Peking University</text>
