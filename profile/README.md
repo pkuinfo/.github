@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.png">
-  <img alt="pkuinfo: 让燕园的数字生活更简单" src="./banner-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pkuinfo/.github/main/profile/banner-dark.png">
+  <img alt="pkuinfo: 让燕园的数字生活更简单" src="https://raw.githubusercontent.com/pkuinfo/.github/main/profile/banner-light.png">
 </picture>
 
 **pkuinfo** builds open-source tools for campus life at Peking University. One login, every campus
